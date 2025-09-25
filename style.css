@@ -3,14 +3,18 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
-
-h3 {
+h2 {
     color: rgb(0, 0, 0);
     text-align: center;
 }
-
+h3 {
+    color: rgb(0, 0, 0);
+}
+h4 {
+    margin-top: -45px;
+}
 body {
-    background-color: rgb(238, 185, 224);
+    background-image: url(https://thumb.ac-illust.com/3a/3ad484f790dd88a54298ab883b89773d_t.jpeg)
 }
 
 img {
@@ -26,7 +30,8 @@ img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 100px auto;
     padding: 5px 30px;
-    background-color: rgb(237, 224, 233);
+    background-color: rgb(248, 234, 242);
+    
 }
 
 p {
