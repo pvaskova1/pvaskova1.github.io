@@ -87,17 +87,6 @@ p {
 .big {
     display: none;
 }
-
-@media(min-width: 1201px) {
-    body {
-        background-color: black;
-    }
-
-    #widescreen {
-        display: block;
-    }
-}
-
 .text {
     display: flex;
     justify-content: space-between;
