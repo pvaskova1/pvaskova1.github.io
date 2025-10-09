@@ -3,24 +3,28 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+
 h2 {
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
 h3 {
     color: rgb(0, 0, 0);
 }
+
 h4 {
     margin-top: -45px;
 }
+
 body {
     background-image: url(https://thumb.ac-illust.com/3a/3ad484f790dd88a54298ab883b89773d_t.jpeg)
 }
- 
+
 img {
-    width: 300;
-    height: 120;
     border-radius: 20%;
+    display: block;
+    margin: 0 auto;
 }
 
 .container {
@@ -31,7 +35,7 @@ img {
     margin: 50px auto;
     padding: 5px 30px;
     background-color: rgb(248, 234, 242);
-    
+
 }
 
 
@@ -45,30 +49,96 @@ p {
 }
 
 #navbar {
-  background-color: rgb(249, 189, 223);
-  position: fixed;
-  border-radius: 20px;
-  top: 0;
-  width: 97.5%;
-  padding: 10px;
+    background-color: rgb(249, 189, 223);
+    position: fixed;
+    border-radius: 20px;
+    top: 0;
+    width: 97.5%;
+    padding: 10px;
 }
+
 #navbar ul {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  gap: 55px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 55px;
+    list-style: none;
 }
 
 #navbar li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 22px;
-  padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 8px 15px;
 }
 
 #navbar li a:hover {
-  background: rgb(238, 212, 230);
-  border-radius: 15px;
+    background: rgb(238, 212, 230);
+    border-radius: 15px;
+}
+
+#navbar i {
+    margin-right: 8px;
+    color: rgb(0, 0, 0);
+}
+
+.big {
+    display: none;
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: black;
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    margin-left: 3px;
+}
+
+@media (min-width: 1201px) {
+    #widescreen {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1024px) {
+    #normal {
+        display: block;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    #tablet {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    #navbar li a {
+        font-size: 0;
+        padding: 8px;
+    }
+
+    #navbar li a i {
+        font-size: 22px;
+        margin-right: 0;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1023px) {
+    #landscape {
+        display: block;
+    }
 }
