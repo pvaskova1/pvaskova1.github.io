@@ -1,0 +1,11 @@
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    gap: 20px;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
