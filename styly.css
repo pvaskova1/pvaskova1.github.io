@@ -1,12 +1,36 @@
-#menu {
+
+.nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     position: fixed;
-    flex-direction: row;
     top: 0;
     left: 0;
-    gap: 20px;
     width: 100%;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 32px;
+    margin: 0 16px;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.nav-list a:hover {
+    background: rgb(219, 135, 222);
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
