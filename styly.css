@@ -41,6 +41,7 @@ h2 {
 h3 {
     font-size: 42px;
     color: #eadede;
+    margin-left: 10px;
 }
 
 ul {
@@ -59,7 +60,8 @@ img {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,8 +69,8 @@ img {
     background: #6e2a85;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+    padding: 0 30px; 
 }
-
 .nav-list {
     display: flex;
     margin-right: 30px;
