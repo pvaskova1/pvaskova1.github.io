@@ -184,3 +184,15 @@ footer i {
 footer a href {
     text-decoration: underline;
 }
+
+@media (min-width: 1200px) {
+    #widescreen {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    #smartphone {
+        display: block;
+    }
+}
